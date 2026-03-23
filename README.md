@@ -27,27 +27,27 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.2 | 709 | 3.1M | 357K | 98.7M | $21.94 | $185.08 | $148.86 |
-| **Total** | **709** | **3.1M** | **357K** | **98.7M** | **$21.94** | **$185.08** | **$148.86** |
+| gpt-5.2 | 755 | 3.1M | 377K | 106.0M | $23.23 | $198.81 | $157.29 |
+| **Total** | **755** | **3.1M** | **377K** | **106.0M** | **$23.23** | **$198.81** | **$157.29** |
 
-_102.2M total tokens processed. 96.6% cache hit rate._
+_109.6M total tokens processed. 96.7% cache hit rate._
 
-_$333.94 total saved ($185.08 caching + $148.86 model routing vs all-Opus)._
+_$356.10 total saved ($198.81 caching + $157.29 model routing vs all-Opus)._
 
-_Model savings are modest because ~96.6% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~96.7% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.2 | 6,580 | 41.5M | 3.2M | 877.7M | $685.11 | $1,645.87 | $1,499.54 |
+| gpt-5.2 | 6,626 | 41.6M | 3.2M | 885.1M | $690.04 | $1,659.61 | $1,507.97 |
 | gpt-5.2-codex | 2,250 | 11.9M | 772K | 192.4M | $157.97 | $360.93 | $368.35 |
 | gpt-5-nano | 1 | 82K | 563 | 0 | $0.24 | $0.00 | $1.02 |
-| **Total** | **8,831** | **53.6M** | **4.0M** | **1,070.2M** | **$843.32** | **$2,006.81** | **$1,868.91** |
+| **Total** | **8,877** | **53.6M** | **4.0M** | **1,077.6M** | **$848.25** | **$2,020.54** | **$1,877.34** |
 
-_1,128.1M total tokens processed. 94.9% cache hit rate._
+_1,135.5M total tokens processed. 94.9% cache hit rate._
 
-_$3,875.72 total saved ($2,006.81 caching + $1,868.91 model routing vs all-Opus)._
+_$3,897.88 total saved ($2,020.54 caching + $1,877.34 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.9% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -62,5 +62,5 @@ _Model savings are modest because ~94.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-23 15:56 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-23 16:56 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
