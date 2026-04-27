@@ -15,8 +15,8 @@
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
 | User AI session hours | 0.0h | 1.6h | 35.8h | 144.6h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 3.0h | 60.7h | 236.2h |
-| Interactive sessions | 0 | 8 | 16 | 71 |
+| AI concurrency hours | 0.2h | 3.0h | 60.9h | 236.4h |
+| Interactive sessions | 2 | 6 | 17 | 72 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -28,12 +28,12 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.2-codex | 3,308 | 19.7M | 1.3M | 472.7M | $103.36 | $886.44 | $747.74 |
-| gpt-5.4 | 776 | 3.9M | 191K | 79.4M | $34.46 | $148.88 | $131.87 |
-| **Total** | **4,084** | **23.7M** | **1.5M** | **552.1M** | **$137.82** | **$1,035.31** | **$879.61** |
+| gpt-5.4 | 833 | 4.4M | 205K | 87.4M | $37.85 | $164.04 | $144.92 |
+| **Total** | **4,141** | **24.1M** | **1.5M** | **560.2M** | **$141.21** | **$1,050.47** | **$892.66** |
 
-_577.4M total tokens processed. 95.6% cache hit rate._
+_585.9M total tokens processed. 95.6% cache hit rate._
 
-_$1,914.92 total saved ($1,035.31 caching + $879.61 model routing vs all-Opus)._
+_$1,943.14 total saved ($1,050.47 caching + $892.66 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.6% of tokens are cache reads, where price differences between models are small._
 
@@ -43,13 +43,13 @@ _Model savings are modest because ~95.6% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.2 | 8,353 | 49.4M | 4.1M | 1,161.7M | $891.02 | $2,178.24 | $1,903.10 |
 | gpt-5.2-codex | 6,366 | 37.5M | 2.4M | 778.5M | $604.47 | $1,459.76 | $1,306.88 |
-| gpt-5.4 | 818 | 4.1M | 207K | 81.5M | $63.33 | $152.81 | $136.45 |
+| gpt-5.4 | 875 | 4.5M | 221K | 89.5M | $69.55 | $167.97 | $149.51 |
 | gpt-5-nano | 1 | 82K | 563 | 0 | $0.24 | $0.00 | $1.02 |
-| **Total** | **15,538** | **91.2M** | **6.7M** | **2,021.7M** | **$1,559.06** | **$3,790.82** | **$3,347.46** |
+| **Total** | **15,595** | **91.6M** | **6.7M** | **2,029.8M** | **$1,565.28** | **$3,805.98** | **$3,360.51** |
 
-_2,119.9M total tokens processed. 95.4% cache hit rate._
+_2,128.4M total tokens processed. 95.4% cache hit rate._
 
-_$7,138.28 total saved ($3,790.82 caching + $3,347.46 model routing vs all-Opus)._
+_$7,166.49 total saved ($3,805.98 caching + $3,360.51 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.4% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -64,5 +64,5 @@ _Model savings are modest because ~95.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-27 05:20 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-27 07:16 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
