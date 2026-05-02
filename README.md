@@ -43,9 +43,9 @@ _Model savings are modest because ~95.5% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.2 | 8,353 | 49.4M | 4.1M | 1,161.7M | $891.02 | $2,178.24 | $1,903.10 |
 | gpt-5.2-codex | 6,366 | 37.5M | 2.4M | 778.5M | $604.47 | $1,459.76 | $1,306.88 |
-| gpt-5.4 | 1,622 | 11.1M | 410K | 215.6M | $166.79 | $404.40 | $354.90 |
+| gpt-5.4 | 1,623 | 11.1M | 410K | 215.6M | $166.79 | $404.40 | $354.90 |
 | gpt-5-nano | 1 | 82K | 563 | 0 | $0.24 | $0.00 | $1.02 |
-| **Total** | **16,342** | **98.2M** | **6.9M** | **2,155.9M** | **$1,662.52** | **$4,042.40** | **$3,565.91** |
+| **Total** | **16,343** | **98.2M** | **6.9M** | **2,155.9M** | **$1,662.52** | **$4,042.40** | **$3,565.91** |
 
 _2,261.3M total tokens processed. 95.3% cache hit rate._
 
@@ -64,5 +64,5 @@ _Model savings are modest because ~95.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-02 10:54 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-02 13:50 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
