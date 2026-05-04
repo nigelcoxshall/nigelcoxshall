@@ -28,12 +28,12 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.4 | 1,876 | 12.4M | 464K | 244.6M | $103.31 | $458.69 | $400.02 |
-| gpt-5.2-codex | 2,517 | 14.9M | 1.0M | 353.1M | $78.02 | $662.14 | $563.05 |
-| **Total** | **4,393** | **27.3M** | **1.5M** | **597.7M** | **$181.33** | **$1,120.83** | **$963.07** |
+| gpt-5.2-codex | 2,516 | 14.9M | 1.0M | 352.9M | $77.99 | $661.74 | $562.85 |
+| **Total** | **4,392** | **27.3M** | **1.5M** | **597.5M** | **$181.30** | **$1,120.43** | **$962.87** |
 
 _626.4M total tokens processed. 95.4% cache hit rate._
 
-_$2,083.90 total saved ($1,120.83 caching + $963.07 model routing vs all-Opus)._
+_$2,083.30 total saved ($1,120.43 caching + $962.87 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.4% of tokens are cache reads, where price differences between models are small._
 
