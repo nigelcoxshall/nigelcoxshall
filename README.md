@@ -13,9 +13,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.0h | 8.7h | 40.7h | 159.9h |
+| User AI session hours | 0.0h | 8.7h | 40.0h | 159.9h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 27.4h | 79.7h | 271.9h |
+| AI concurrency hours | 0.0h | 27.4h | 78.7h | 271.9h |
 | Interactive sessions | 0 | 5 | 22 | 77 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -28,14 +28,14 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.4 | 1,876 | 12.4M | 464K | 244.6M | $103.31 | $458.69 | $400.02 |
-| gpt-5.2-codex | 1,916 | 12.0M | 765K | 268.9M | $59.73 | $504.33 | $435.79 |
-| **Total** | **3,792** | **24.5M** | **1.2M** | **513.6M** | **$163.04** | **$963.02** | **$835.81** |
+| gpt-5.2-codex | 1,809 | 11.7M | 721K | 246.5M | $55.94 | $462.32 | $410.04 |
+| **Total** | **3,685** | **24.2M** | **1.1M** | **491.2M** | **$159.25** | **$921.00** | **$810.05** |
 
-_539.3M total tokens processed. 95.2% cache hit rate._
+_516.6M total tokens processed. 95.1% cache hit rate._
 
-_$1,798.83 total saved ($963.02 caching + $835.81 model routing vs all-Opus)._
+_$1,731.06 total saved ($921.00 caching + $810.05 model routing vs all-Opus)._
 
-_Model savings are modest because ~95.2% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~95.1% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -64,5 +64,5 @@ _Model savings are modest because ~95.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-05 21:39 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-05 22:39 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
